@@ -32,3 +32,6 @@ tmp/
 .DS_Store
 Thumbs.db
 *.swp
+
+# local env
+.env
