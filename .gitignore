@@ -1,0 +1,34 @@
+# --- Datasets / runtime content (do not version) ---
+bases/
+bases-work/
+serial/
+logs/
+
+# --- Legacy processing bundle (very large) ---
+proc/transform/
+proc/*.out
+proc/nohup.out
+
+# --- Legacy mirrored tree (optional duplicate of htdocs) ---
+htdocs/htdocs/
+
+# --- Large static assets (keep outside git or publish separately) ---
+htdocs/img/
+
+# --- Archives / dumps ---
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# --- Local temp/cache ---
+tmp/
+.cache/
+*.log
+
+# --- OS/editor noise ---
+.DS_Store
+Thumbs.db
+*.swp

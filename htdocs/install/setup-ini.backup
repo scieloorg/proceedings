@@ -1,0 +1,12 @@
+Directory=[PATH_DATA]##FileType=*.php##Find=/scieloproceedings/web/htdocs/
+Directory=[PATH_DATA]##FileType=*.def##Find=/scieloproceedings/web/htdocs/
+Directory=[PATH_DATA]##FileType=*.def##Find=/scieloproceedings/web/bases/##Replace=[PATH_DATABASE]
+Directory=[PATH_DATA]##FileType=*.def##Find=localhost##Replace=[SERVERNAME]
+Directory=[PATH_DATA]xsl##FileType=*.xsl##Find=/scieloproceedings/web/htdocs/
+Directory=[PATH_DATA]iah##FileType=*.def##Find=/scieloproceedings/web/cgi-bin/##Replace=[PATH_CGI-BIN]
+Directory=[PATH_DATA]iah##FileType=*.def##Find=/scieloproceedings/web/bases/##Replace=[PATH_DATABASE]
+Directory=[PATH_DATA]iah##FileType=*.def##Find=localhost##Replace=[SERVERNAME]
+Directory=[PATH_CGI-BIN]iah-styles##FileType=place-sc.pft##Find=localhost##Replace=[SERVERNAME]
+Directory=[PATH_CGI-BIN]iah-styles##FileType=place-sc.pft##Find=/scieloproceedings/web/htdocs/
+Directory=[PATH_CGI-BIN]iah-styles##FileType=lattes.xis##Find=/scieloproceedings/web/bases/##Replace=[PATH_DATABASE]
+Directory=[PATH_CGI-BIN]ScieloXML##FileType=redireciona.xis##Find=/scieloproceedings/web/bases/##Replace=[PATH_DATABASE]
