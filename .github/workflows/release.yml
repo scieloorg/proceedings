@@ -27,9 +27,10 @@ jobs:
       - name: Build image
         run: |
           docker build \
+            -f docker/rocky9/Dockerfile \
             -t infrascielo/proceedings:${VERSION} \
             -t infrascielo/proceedings:latest \
-            docker/rocky9/Dockerfile
+            .
 
       # 🔐 Scan único (policy)
       - name: Trivy Image Scan
